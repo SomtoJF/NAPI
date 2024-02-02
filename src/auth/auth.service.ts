@@ -15,6 +15,8 @@ export class AuthService {
     const response = await this.prisma.user.create({
       data: { email, hash },
     });
+
+    delete response.hash;
     // return new user
     return response;
   }
