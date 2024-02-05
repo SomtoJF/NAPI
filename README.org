@@ -1,7 +1,4 @@
-
-# Table of Contents
-
-
+#+title: A NESTJS STARTUP REPO
+#+author: SOMTOJF
 
 Everything needed to spinup a NestJS project as fast as possible with authentication and protected routes. Connected to a POSTGRESQL database using Prisma ORM.
-
